@@ -1,5 +1,3 @@
-python3 -m venv cicada
-source cicada/bin/activate
-chmod +x *
+python3 -m venv ande && source ande/bin/activate
 pip install -r requirements.txt
 screen -S cicada python main.py
